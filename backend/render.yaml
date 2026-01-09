@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: wg-ministries-api
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        fromDatabase:
+          name: wg-ministries-db
+          property: connectionString
+      - key: JWT_SECRET
+        generateValue: true
+      - key: JWT_EXPIRE
+        value: 7d
+      - key: PORT
+        value: 5000
+
+databases:
+  - name: wg-ministries-db
+    plan: starter
