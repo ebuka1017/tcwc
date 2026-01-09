@@ -9,9 +9,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* About */}
           <div>
-            <h3 className="text-white text-lg font-bold mb-4">WG Ministries</h3>
+            <h3 className="text-white text-lg font-bold mb-4">Word of Grace Ministries</h3>
             <p className="text-sm">
-              A Christian ministry dedicated to spreading the Gospel and nurturing spiritual growth.
+              A Place Where Dreams Come True. Founded in 1996, raising armies of worshipers and making mankind's dreams become reality.
             </p>
           </div>
 
@@ -41,8 +41,9 @@ export default function Footer() {
           <div>
             <h3 className="text-white text-lg font-bold mb-4">Contact</h3>
             <ul className="space-y-2 text-sm">
-              <li>Email: info@wgministries.org</li>
-              <li>Phone: (555) 123-4567</li>
+              <li>Lagos-Asaba Road, Agbor</li>
+              <li>Delta State, Nigeria</li>
+              <li className="pt-2">Email: info@wgministries.org</li>
               <li className="pt-4">
                 <div className="flex space-x-4">
                   <a href="#" className="hover:text-white transition-colors" aria-label="Facebook">
@@ -67,7 +68,8 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm">
-          <p>&copy; {currentYear} WG Ministries. All rights reserved.</p>
+          <p>&copy; {currentYear} Word of Grace Ministries. All rights reserved.</p>
+          <p className="mt-2 text-xs text-gray-500">Founded 1996 • Rev. Goodwill Adogho, General Overseer</p>
         </div>
       </div>
     </footer>

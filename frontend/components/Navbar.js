@@ -23,8 +23,10 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <span className="text-2xl font-bold text-primary-600">WG</span>
-            <span className="text-xl font-semibold text-gray-900">Ministries</span>
+            <div className="flex flex-col">
+              <span className="text-lg font-bold text-primary-600 leading-tight">Word of Grace</span>
+              <span className="text-xs text-gray-600 leading-tight uppercase tracking-wide">Ministries</span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}

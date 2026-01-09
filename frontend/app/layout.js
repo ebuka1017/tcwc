@@ -15,13 +15,13 @@ const merriweather = Merriweather({
 })
 
 export const metadata = {
-  title: 'WG Ministries - Christian Ministry',
-  description: 'A Christian ministry dedicated to spreading the Gospel and nurturing spiritual growth',
-  keywords: ['Christian ministry', 'church', 'sermons', 'devotionals', 'Gospel'],
-  authors: [{ name: 'WG Ministries' }],
+  title: 'Word of Grace Ministries - A Place Where Dreams Come True',
+  description: 'Word of Grace Ministries, founded in 1996 by Rev. Goodwill Adogho. Located in Agbor, Delta State, Nigeria. Raising armies of worshipers, putting smiles on the face of mankind, and making dreams come true.',
+  keywords: ['Word of Grace Ministries', 'WG Ministries', 'Rev. Goodwill Adogho', 'church', 'Nigeria', 'Agbor', 'Delta State', 'worship', 'sermons', 'devotionals'],
+  authors: [{ name: 'Word of Grace Ministries' }],
   openGraph: {
-    title: 'WG Ministries',
-    description: 'A Christian ministry dedicated to spreading the Gospel and nurturing spiritual growth',
+    title: 'Word of Grace Ministries',
+    description: 'A Place Where Dreams Come True - Founded 1996',
     type: 'website',
     locale: 'en_US',
   },

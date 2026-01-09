@@ -14,16 +14,25 @@ export default function Hero() {
             transition={{ duration: 0.6 }}
             className="text-4xl md:text-6xl font-bold mb-6 leading-tight"
           >
-            Welcome to WG Ministries
+            Welcome to Word of Grace Ministries
           </motion.h1>
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-xl md:text-2xl mb-8 text-primary-100"
+            className="text-2xl md:text-3xl mb-4 text-white font-semibold"
           >
-            A Christian ministry dedicated to spreading the Gospel and nurturing spiritual growth
+            A Place Where Dreams Come True
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            className="text-lg mb-8 text-primary-50"
+          >
+            Founded in 1996 • Agbor, Delta State, Nigeria
           </motion.p>
 
           <motion.div

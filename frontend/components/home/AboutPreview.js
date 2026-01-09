@@ -16,13 +16,14 @@ export default function AboutPreview() {
           >
             <h2 className="section-title">About Our Ministry</h2>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              WG Ministries was founded with a vision to spread the Gospel and nurture spiritual growth in believers.
-              Our mission is to create a community where faith is strengthened, lives are transformed, and God's
-              love is shared with all.
+              Word of Grace Ministries was birthed from prayer in Ghana in 1996, with a divine promise:
+              "I will get the work started and keep the work going." What started in a living room with five members
+              has grown into a thriving ministry touching lives across Nigeria and beyond.
             </p>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Through powerful sermons, daily devotionals, and community outreach, we seek to fulfill the
-              Great Commission and make disciples of all nations.
+              Under the leadership of Rev. Goodwill Adogho, we are committed to our five-pillar mandate:
+              raising armies of worshipers, putting smiles on the face of mankind, developing leaders after God's order,
+              making dreams come true, and creating wealth for God's people.
             </p>
             <Link href="/about" className="btn btn-primary">
               Learn More About Us
@@ -40,32 +41,32 @@ export default function AboutPreview() {
               whileHover={{ scale: 1.05 }}
               className="card p-6 text-center"
             >
-              <div className="text-4xl font-bold text-primary-600 mb-2">10+</div>
-              <div className="text-gray-600">Years Serving</div>
+              <div className="text-4xl font-bold text-primary-600 mb-2">28+</div>
+              <div className="text-gray-600">Years of Ministry</div>
             </motion.div>
 
             <motion.div
               whileHover={{ scale: 1.05 }}
               className="card p-6 text-center"
             >
-              <div className="text-4xl font-bold text-primary-600 mb-2">500+</div>
-              <div className="text-gray-600">Sermons</div>
+              <div className="text-4xl font-bold text-primary-600 mb-2">1996</div>
+              <div className="text-gray-600">Founded</div>
             </motion.div>
 
             <motion.div
               whileHover={{ scale: 1.05 }}
               className="card p-6 text-center"
             >
-              <div className="text-4xl font-bold text-primary-600 mb-2">1000+</div>
-              <div className="text-gray-600">Members</div>
+              <div className="text-4xl font-bold text-primary-600 mb-2">1000</div>
+              <div className="text-gray-600">Seater Building</div>
             </motion.div>
 
             <motion.div
               whileHover={{ scale: 1.05 }}
               className="card p-6 text-center"
             >
-              <div className="text-4xl font-bold text-primary-600 mb-2">50+</div>
-              <div className="text-gray-600">Countries Reached</div>
+              <div className="text-4xl font-bold text-primary-600 mb-2">5</div>
+              <div className="text-gray-600">Core Pillars</div>
             </motion.div>
           </motion.div>
         </div>
