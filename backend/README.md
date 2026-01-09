@@ -34,6 +34,27 @@ Error response:
 }
 ```
 
+### Seeding the Database
+
+To quickly populate your database with sample data for testing and development:
+
+```bash
+npm run seed
+```
+
+This command will:
+- Clear all existing data (be careful!)
+- Create 2 users (1 admin, 1 editor)
+- Create 9 categories (5 blog, 4 devotional)
+- Create 4 sample blog posts
+- Create 5 sample devotionals
+
+**Default Credentials:**
+- Admin: `admin@wgministries.org` / `admin123`
+- Editor: `editor@wgministries.org` / `editor123`
+
+⚠️ **Important:** Only run this in development. Never run this in production as it will delete all existing data!
+
 ### Endpoints
 
 #### Authentication

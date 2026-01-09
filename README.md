@@ -183,23 +183,25 @@ npm run dev
 
 The website will be available at `http://localhost:3000`
 
-## Creating the First Admin User
+## Seeding the Database
 
-To create the first admin user, you'll need to use an API client like Postman or curl:
+The easiest way to get started is to seed the database with sample data:
 
 ```bash
-POST http://localhost:5000/api/v1/auth/register
-Content-Type: application/json
-
-{
-  "name": "Admin User",
-  "email": "admin@wgministries.org",
-  "password": "yourpassword",
-  "role": "admin"
-}
+cd backend
+npm run seed
 ```
 
-Note: The register endpoint requires authentication. For the first user, you may need to temporarily remove the auth middleware or create a seed script.
+This will:
+- Create an admin user (admin@wgministries.org / admin123)
+- Create an editor user (editor@wgministries.org / editor123)
+- Create sample categories for blogs and devotionals
+- Create 4 sample blog posts
+- Create 5 sample devotionals
+
+**⚠️ Important:** Change the default passwords in production!
+
+After seeding, you can log in to the admin dashboard at `http://localhost:3000/admin/login` using the admin credentials.
 
 ## API Endpoints
 
